@@ -1,3 +1,115 @@
-h2 {
-	color: red;
+header {
+	padding: 20px 0;
+	background-color: cyan;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
 }
+
+.container {
+	width: 1165px;
+	margin: 0 auto;
+}
+.logo {
+	font-size: 48px;
+	color: hotpink;
+	vertical-align: middle;
+	margin-right: 70px;
+}
+nav {
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+li a {
+	font-size: 34px;
+}
+
+.photosect {
+	margin: 100px 0;
+}
+
+.wrapper {
+	display: inline-block;
+	position: relative;
+}
+
+h4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Roboto;
+	color: #FFF;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.s-1 {
+	margin-top: 88px;
+}
+
+
+
+.bigbox{
+	position: relative;
+	z-index: 10;
+	width: 500px;
+	height: 500px;
+	background-color: lightpink;
+}
+
+.smallbox {
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+	position: absolute;
+	top: ;
+	left: ;
+	z-index: 10;
+}
+.smallbox2 {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 5;
+}
+.smallbox3 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 10;
+}
+
+
+
+.s-2 {
+	margin-top: 30px;
+}
+
+
+h2 {
+	font-size: 48px;
+	color: darkred;
+	margin-bottom: 30px;
+}
+
+p {
+	width: 400px;
+	margin-bottom: 50px;
+}
+
